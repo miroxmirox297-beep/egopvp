@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bf3eaa91-bce4-4511-a190-44dd9cc2cdd5",
+    "username": "creator",
+    "displayName": "Project Creator",
+    "role": "creator",
+    "salt": "2c9ebe61d2ce27e488ee6de3c5d8ddc2",
+    "passwordHash": "082012cdca041077575bc3d08f6b96fdfb1c431802c6f3ae5b9bb16f21f907c74053c2e96e627fdf676a676f02d28589a0d33ae31ef5344b96191984081d2d97",
+    "licenseExpiresAt": null,
+    "licenseStatus": "active",
+    "createdAt": "2026-10-28T12:14:56.115Z",
+    "profile": {}
+  }
+]

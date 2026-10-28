@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGO PvP - Rules</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-canvas"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="stars-container" id="stars-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="nav-brand">
+            <div class="nav-brand-logo">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="nav-brand-text">
+                <span class="brand-main">EGO PvP</span>
+                <span class="brand-sub">Development</span>
+            </div>
+        </a>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="rules.html" class="active">Rules</a>
+            <a href="team.html">Team</a>
+            <a href="shop.html">Shop</a>
+            <a href="apply.html">Apply Staff</a>
+            <a href="discord.html">Discord</a>
+        </div>
+
+        <a href="discord.html" class="btn btn-primary nav-cta">
+            <i class="fab fa-discord"></i> Join Now
+        </a>
+
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Rules Content -->
+    <section class="rules-page container">
+        <div class="section-header reveal">
+            <span class="section-tag">Guidelines</span>
+            <h1 class="section-title">Server <span>Rules</span></h1>
+            <p class="section-subtitle">To ensure a fair, immersive, and enjoyable roleplay experience for everyone, all players must adhere to the following guidelines.</p>
+        </div>
+
+        <div class="rules-categories reveal" style="transition-delay: 100ms;">
+            <button class="rules-filter-btn active" data-filter="all">All Rules</button>
+            <button class="rules-filter-btn" data-filter="rp">Roleplay (RP)</button>
+            <button class="rules-filter-btn" data-filter="ooc">Out of Character (OOC)</button>
+        </div>
+
+        <div class="rules-list reveal" style="transition-delay: 200ms;">
+            
+            <!-- Rule 1 -->
+            <div class="rule-card" data-category="rp">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">01</div>
+                        <div>
+                            <h3 class="rule-title">I. Fear RP: الواقعية في الخوف</h3>
+                            <p class="rule-brief">Always value your life. Never engage in actions that risk your character unrealistically.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        يجب أن يتصرف شخصيتك بذكاء وواقعية عند مواجهة أي خطر وشيك (مثل التهديد بالسلاح أو التواجد في موقف خطير). لا يجوز التضحية بحياتك بسهولة، ويجب الامتثال لأوامر الخصم إذا كان يهدد بإنهاء حياتك، ما لم تكن هناك فرصة واقعية ومبررة للمقاومة أو الهروب. خرق هذه القاعدة هو كسر للواقعية (Fail RP).
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule 2 -->
+            <div class="rule-card" data-category="rp">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">02</div>
+                        <div>
+                            <h3 class="rule-title">II. V-DM / RDM: القتل العشوائي</h3>
+                            <p class="rule-brief">Vehicle Deathmatch and Random Deathmatch are strictly prohibited.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        لا يجوز قتل أو إصابة شخصية أخرى دون وجود تفاعل دور لعب (RP) مسبق وسبب منطقي وقوي. يمنع استخدام المركبات كسلاح لقتل اللاعبين (V-DM). يجب أن تكون لديك قصة أو حجة واضحة تبرر اللجوء إلى العنف المميت.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule 3 -->
+            <div class="rule-card" data-category="rp">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">03</div>
+                        <div>
+                            <h3 class="rule-title">III. Powergaming: فرض النتائج</h3>
+                            <p class="rule-brief">You must allow other players a realistic response. Do not force outcomes.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        يمنع التصرف بطريقة تجعل الشخصية الأخرى عاجزة عن الرد أو اللعب بشكل واقعي. على سبيل المثال، لا يمكنك كتابة "أطلق عليه النار وأصاب رأسه بدون فرصة للرد". يجب دائمًا منح الخصم فرصة للعب دوره في التفاعل.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule 4 -->
+            <div class="rule-card" data-category="ooc">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">04</div>
+                        <div>
+                            <h3 class="rule-title">I. Metagaming: استخدام معلومات خارج اللعب</h3>
+                            <p class="rule-brief">Using OOC info (Discord, Streams) in-game is a bannable offense.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        يمنع منعاً باتاً استخدام أي معلومات حصلت عليها خارج عالم اللعبة (مثل قراءة شات Discord، أو مشاهدة بث مباشر لشخص آخر) واستغلالها لصالح شخصيتك داخل اللعبة. يجب أن تتصرف شخصيتك فقط بناءً على ما شهدته أو سمعته داخل اللعبة.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule 5 -->
+            <div class="rule-card" data-category="ooc">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">05</div>
+                        <div>
+                            <h3 class="rule-title">II. Combat Logging: الهروب من العواقب</h3>
+                            <p class="rule-brief">Disconnecting during an active RP scenario to avoid consequences.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        لا يجوز قطع الاتصال بالخادم عمداً أثناء تفاعل دور لعب نشط، خاصة إذا كنت تتعرض للخطر، أو مطارد من الشرطة، أو مقيد. يجب أن تتحمل شخصيتك عواقب تصرفاتها. في حالة حدوث عطل تقني، يجب عليك الإبلاغ فوراً والعودة لاستكمال السيناريو.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule 6 -->
+            <div class="rule-card" data-category="ooc">
+                <div class="rule-header">
+                    <div class="rule-header-left">
+                        <div class="rule-number">06</div>
+                        <div>
+                            <h3 class="rule-title">III. Respect: الاحترام المتبادل</h3>
+                            <p class="rule-brief">Treat all players and staff with respect. Toxicity is not tolerated.</p>
+                        </div>
+                    </div>
+                    <div class="rule-toggle-btn"><i class="fas fa-chevron-down"></i></div>
+                </div>
+                <div class="rule-detail">
+                    <div class="rule-detail-content">
+                        يجب معاملة جميع أعضاء المجتمع، بما في ذلك اللاعبون وطاقم الإدارة، باحترام في جميع الأوقات. يمنع أي شكل من أشكال الإساءة العنصرية، أو التمييز، أو التحرش، أو السلوك السام. حافظ على حدود الـ RP وتذكر أن OOC يجب أن يكون دائماً ودياً.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-brand-name">EGO PvP</div>
+                <p class="footer-brand-desc">The most advanced and immersive FiveM roleplay experience. Join us today and start your journey.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-btn"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links-grid">
+                <div class="footer-links-col">
+                    <h4>Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="rules.html">Rules</a>
+                    <a href="team.html">Team</a>
+            <a href="shop.html">Shop</a>
+            <a href="apply.html">Apply Staff</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Resources</h4>
+                    <a href="discord.html">Discord</a>
+                    <a href="#">Apply for WL</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Legal</h4>
+                    <a href="imprint.html">Imprint</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                &copy; 2024 <span>EGO PvP</span>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+    <script src="js/ego-integration.js"></script>
+</body>
+</html>

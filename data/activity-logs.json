@@ -1,0 +1,128 @@
+[
+  {
+    "id": "dd5bce0d-450f-47fa-bcdb-b2a6c58179c2",
+    "at": "2026-10-28T12:18:37.485Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/"
+  },
+  {
+    "id": "1bea67d1-b9a3-4ec1-9eb7-77e28520dc31",
+    "at": "2026-10-28T12:18:37.458Z",
+    "event": "admin_panel_exit",
+    "username": "creator",
+    "role": "creator",
+    "path": "/api/admin/exit",
+    "details": ""
+  },
+  {
+    "id": "9ae9d54c-6e71-4045-90aa-fd3e6ada0ba5",
+    "at": "2026-10-28T12:16:59.311Z",
+    "event": "admin_login",
+    "username": "creator",
+    "role": "creator",
+    "path": "/api/admin/login",
+    "details": ""
+  },
+  {
+    "id": "450a7677-896a-46fd-b745-27e21bbe43bb",
+    "at": "2026-10-28T12:16:40.146Z",
+    "event": "admin_login_failed",
+    "username": "creator",
+    "role": "creator",
+    "path": "/api/admin/login",
+    "details": "username=creator"
+  },
+  {
+    "id": "13810eb3-0e2d-4f2c-858d-c7be2767f7bb",
+    "at": "2026-10-28T12:16:37.546Z",
+    "event": "admin_login_failed",
+    "username": "creator",
+    "role": "creator",
+    "path": "/api/admin/login",
+    "details": "username=creator"
+  },
+  {
+    "id": "af60dd8f-dcc0-4443-b08d-902e3c29f318",
+    "at": "2026-10-28T12:16:36.321Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/admin"
+  },
+  {
+    "id": "acf46df3-6f0e-45b3-8eec-14054f9e2a7b",
+    "at": "2026-10-28T12:16:35.784Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/index.html"
+  },
+  {
+    "id": "f3cfb09f-e488-4e5a-9822-0757dbbcfd1f",
+    "at": "2026-10-28T12:15:21.927Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/shop.html"
+  },
+  {
+    "id": "bd4d92fb-c5ee-4b12-a7e2-dd0532decc59",
+    "at": "2026-10-28T12:15:15.746Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/apply.html"
+  },
+  {
+    "id": "3c3e1534-efcd-44c3-877d-687690b8f90e",
+    "at": "2026-10-28T12:15:13.949Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/discord.html"
+  },
+  {
+    "id": "00efd2e6-9634-43e4-b0ce-40109aa0ab61",
+    "at": "2026-10-28T12:15:09.347Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/index.html"
+  },
+  {
+    "id": "b7332f9b-d1d3-4d08-86a2-451484597276",
+    "at": "2026-10-28T12:15:07.828Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/rules.html"
+  },
+  {
+    "id": "80ed1f9e-8c04-4313-afa2-80ebfec4ce81",
+    "at": "2026-10-28T12:14:59.867Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/team.html"
+  },
+  {
+    "id": "b5b4cef5-a557-441b-b868-d0b0f4266300",
+    "at": "2026-10-28T12:14:57.092Z",
+    "event": "site_enter",
+    "username": "visitor",
+    "role": "visitor",
+    "path": "/api/activity/visit",
+    "details": "/"
+  }
+]

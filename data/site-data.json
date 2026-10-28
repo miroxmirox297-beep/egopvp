@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "EGO Rifle",
+      "nameAr": "سلاح EGO",
+      "category": "Weapons",
+      "categoryAr": "أسلحة",
+      "price": "Contact us",
+      "image": "",
+      "description": "Add your weapon details here.",
+      "descriptionAr": "أضف تفاصيل السلاح هنا.",
+      "vip": false
+    },
+    {
+      "id": "p2",
+      "name": "EGO VIP Car",
+      "nameAr": "سيارة VIP",
+      "category": "Cars",
+      "categoryAr": "سيارات",
+      "price": "VIP",
+      "image": "",
+      "description": "VIP vehicle offer.",
+      "descriptionAr": "عرض سيارة VIP.",
+      "vip": true
+    }
+  ],
+  "streamers": [],
+  "rules": [
+    {
+      "en": "Respect all players and staff.",
+      "ar": "احترم جميع اللاعبين وأعضاء الستاف."
+    },
+    {
+      "en": "No cheating, exploits, or unfair advantages.",
+      "ar": "ممنوع الغش أو استغلال الثغرات أو استعمال أفضلية غير عادلة."
+    },
+    {
+      "en": "Follow staff instructions during disputes.",
+      "ar": "اتبع تعليمات الستاف عند حدوث أي خلاف."
+    },
+    {
+      "en": "Keep chat and voice channels respectful.",
+      "ar": "حافظ على الاحترام في الدردشة والقنوات الصوتية."
+    }
+  ],
+  "settings": {
+    "discordInvite": "",
+    "accent": "#ff2424",
+    "applicationEnabled": true,
+    "maintenanceMessage": "We will be back soon."
+  },
+  "staff": [
+    {
+      "id": "team-owner-bonja7-34",
+      "name": "bonja7_34",
+      "role": "Owner",
+      "description": "Owner of EGO PvP.",
+      "image": "/team-images/owner-bonja7-34.png",
+      "links": "",
+      "order": 0
+    },
+    {
+      "id": "team-coe-rioux-sf",
+      "name": "RIOUX SF",
+      "role": "Coe",
+      "description": "Co-founder / Coe of EGO PvP.",
+      "image": "/team-images/coe-rioux-sf.png",
+      "links": "",
+      "order": 1
+    },
+    {
+      "id": "team-dev-sit-deplaax",
+      "name": "Deplaax",
+      "role": "Dev Sit",
+      "description": "Website developer of EGO PvP.",
+      "image": "/team-images/dev-sit-deplaax.jpg",
+      "links": "",
+      "order": 2
+    }
+  ],
+  "applications": [],
+  "purchaseRequests": [],
+  "announcements": [],
+  "maintenanceMode": false
+}
